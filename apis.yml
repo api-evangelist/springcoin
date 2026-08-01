@@ -1,7 +1,23 @@
 aid: springcoin
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/springcoin.png
 name: Springcoin
-description: Springcoin is a company surfaced as a portfolio company of 500-global and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Springcoin (operating as Spring Labs) is an AI-native compliance and customer-experience
+  platform for financial services. It builds autonomous AI agents for contact centers, quality
+  assurance, complaint handling, and dispute resolution, alongside SummerGRC, a governance, risk,
+  and compliance product with entity intelligence and an agent builder. The platform integrates
+  with 50+ contact-center and CRM systems and was surfaced as a 500 Global portfolio company. No
+  public developer API, OpenAPI, SDK, or open documentation surface was found during enrichment.
 url: https://raw.githubusercontent.com/api-evangelist/springcoin/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +27,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Artificial Intelligence
+- Compliance
+- Financial Services
+- Customer Experience
+- Governance Risk Compliance
+- AI Agents
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +45,16 @@ maintainers:
 common:
 - type: Website
   url: https://springlabs.com
+- type: Blog
+  url: https://springlabs.com/blog
+- type: TermsOfService
+  url: https://springlabs.com/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://springlabs.com/privacy-policy
+- type: DomainSecurity
+  url: security/springcoin-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
