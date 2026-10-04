@@ -43,7 +43,7 @@ tags:
 - Company
 - Artificial Intelligence
 - Compliance
-- Financial-Services
+- Financial Services
 - Customer Experience
 - Governance Risk Compliance
 - AI Agents
@@ -55,6 +55,7 @@ tags_raw:
 - Customer Experience
 - Governance Risk Compliance
 - AI Agents
+- Financial-Services
 apis: []
 maintainers:
 - FN: Kin Lane
